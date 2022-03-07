@@ -1,0 +1,103 @@
+#title{
+    background-color: aquamarine;
+    padding: 3% 15%;
+}
+h1{
+    font-family: "Montserrat-black";
+    size: 3rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: "Montserrat-bold";
+}
+h3{
+    font-family: "Montserrat-bold";
+}
+p{
+    color: rgb(43, 184, 184);
+    line-height: 1.5;
+    size: 2rem;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+     
+     z-index: 1;
+}
+.title-image{
+    width: 30%;
+    transform: rotate(20deg);
+    
+    z-index: 1;
+    left: 30%;
+}
+.navbar-brand{
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 9 rem;
+}
+
+.btn{
+    margin: 8px 8px 4px 0px;
+    padding-bottom: 20px;
+}
+#features{
+    padding: 7% 15%;
+    
+
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: red;
+    margin: 1rem;
+}
+.icon:hover{
+    color: #000;
+}
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: aquamarine;
+    color:rgb(177, 11, 102);
+}
+.testimonials-img{
+    width: 40%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+     height: 400px;
+}
+#press{
+    background-color: aquamarine;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin:20px 20px 20px;
+}
+#cta{
+    background-color: aquamarine;
+    padding: 7% 15%;
+    text-align: center;
+    
+}
+.cta-heading{
+   font-size: 3.5rem;
+    line-height: 1.5;
+}
+#footer{
+    
+    padding: 7% 15%;
+    text-align: center;
+}
+@media ( max-width:1200px) {
+    .title-image{
+    position:static;
+    transform: rotate(0);
+}
+}
